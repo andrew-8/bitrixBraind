@@ -1,6 +1,6 @@
 <?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
 
-class CExhangeRates extends CBitrixComponent
+class CExchangeRates extends CBitrixComponent
 {
     /**
      * Получение определенных курс валют

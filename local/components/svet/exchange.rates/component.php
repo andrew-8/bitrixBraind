@@ -2,7 +2,6 @@
 
 use Bitrix\Main\Localization\Loc;
 $cache = Bitrix\Main\Data\Cache::createInstance();
-Loc::loadMessages(__FILE__);
 
 if (!isset($arParams["CACHE_TIME"]))
     $arParams["CACHE_TIME"] = 86400;
